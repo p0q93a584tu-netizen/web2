@@ -1,7 +1,7 @@
 export async function onRequest(context) {
 
   const renderUrl =
-    "https://render-yvv2.onrender.com/dotnet.wasm";
+    "https://render-yvv2.onrender.com/dotnet.native.wasm";
 
   const response = await fetch(renderUrl);
 
